@@ -1,0 +1,25 @@
+Header css
+body, html {
+  margin: 0; /* Remove default margin */
+  height: 100%; /* Ensure the body takes the full height */
+}
+
+.Header1 {
+  position: absolute; /* Position the element absolutely */
+  top: 10px; /* Adjusts how far from the top of the page the text is */
+  left: 50%; /* Moves the element horizontally to the center */
+  transform: translateX(-50%); /* Shifts the element left by 50% of its width to center it */
+  font-size: 36px; /* Sets the font size */
+  font-weight: bold; /* Makes the text bold */
+  text-align: center; /* Center-aligns the text */
+  margin: 0; /* Removes default margin */
+}
+.button {
+  margin-right: 10px; /* Space between buttons */
+  padding: 10px 15px; /* Padding for better button size */
+  font-size: 16px; /* Font size */
+}
+
+.button:last-child {
+  margin-right: 0; /* No margin on the last button */
+}

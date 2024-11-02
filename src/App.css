@@ -1,0 +1,88 @@
+App.css
+.element {
+  position: absolute;
+  top: 10px; /* Adjusts how far from the top of the page the text is */
+  left: 50%; /* Moves the element horizontally to the center */
+  transform: translateX(-50%); /* Shifts the element left by 50% of its width to center it */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+
+.app {
+    display: flex;
+    text-align: center;
+    justify-content: center;  /* Horizontally centers the content */
+    align-items: center;      /* Vertically centers the content */
+    height: 100vh;            /* Full viewport height */
+    background-color: #14a4e7;
+  }
+  
+  .todo-container {
+    text-align: center;        /* Centers the content within the container */
+    background-color: rgb(19, 182, 204);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  li button {
+    margin-left: 10px;
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  .tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
