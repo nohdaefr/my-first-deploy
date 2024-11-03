@@ -2,7 +2,7 @@
   "name": "react-essentials-practice",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/nohdaefr/my-first-deploy.git",
+  "homepage": "https://nohdaefr.github.io/my-first-deploy/", 
   "type": "module",
   "scripts": {
     "dev": "vite",

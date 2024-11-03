@@ -112,16 +112,12 @@ body {
   margin: 20px; /* Adds a margin of 20px around the container */
 }
 
-
 .App img {
   max-width: 50%; /* Set the maximum width of the image to 50% of the container width */
   max-height: 50%; /* Set the maximum height of the image to 50% of the container height */
   margin-bottom: 20px; /* Adds a margin of 20px below the image */
 }
 
-.info-box {
-  margin-top: 10px; /* Adds a margin of 20px above the info-box */
-}
 .input-group {
   display: flex;
   align-items: center;
@@ -136,5 +132,5 @@ body {
   flex: 10; /* Make the input field take up more space than the button */
   margin-left: 10px; /* Add space between the button and input field */
   width: 200px; /* Set the width of the input field */
-  padding:10px; /* Add padding inside the input field */
+  padding: 10px; /* Add padding inside the input field */
 }
