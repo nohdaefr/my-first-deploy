@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/my-first-deploy/', // This must match your GitHub repository name
+  build: {
+    rollupOptions: {
+      input: '/path/to/your/index.html' // Replace this with the path to your entry HTML file
+    }
+  }
 });
-
