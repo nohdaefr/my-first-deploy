@@ -2,14 +2,14 @@
   "name": "react-essentials-practice",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://nohdaefr.github.io/my-first-deploy/", 
+  "homepage": "https://nohdaefr.github.io/my-first-deploy/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run buiold",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      input: '/path/to/your/index.html' // Replace this with the path to your entry HTML file
-    }
-  }
+  plugins: [react()],
+  base: '/my-first-deploy/'  // This is correct and should match your GitHub Pages URL subpath
 });
+
